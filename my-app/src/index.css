@@ -1,0 +1,119 @@
+body {
+	margin: 3rem;
+	padding: 15px;
+	font-family: 'Courier New', Courier, monospace;
+}
+.title {
+	padding: 2 rem; 
+	font-size: 100 rem; 
+}
+/* ##### general ##### */
+* {
+	box-sizing: border-box;
+}
+form{
+	width:100%;
+	display: block
+}
+main {
+	padding: 0rem 2rem;
+	background: #FDC094;
+}
+
+/* ##### Search ##### */
+header {
+	background-color: #145783;
+	margin-bottom: 7rem;
+	position:center;
+}
+
+input[type='text'] {
+	margin: rem;
+	background: rgb(238, 190, 157);
+	font-size: 1.3rem;
+	border: none;
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	padding: 2rem 2rem;
+	width: calc(100%);
+	height: 3rem;
+}
+.testinput{
+	width: 50%; 
+}
+
+/* ##### NamesList ##### */
+tr {
+	padding: 15px;
+}
+th {
+	position: center;
+	list-style: none;
+	padding: 0.35rem 0.75rem;
+	margin: 10px;
+	border-radius: 100px;
+	background: #120C6E
+}
+td:hover {
+	position: right;
+	cursor: pointer;
+	background-color: #db7d78;
+}
+
+/* ##### Columns ##### */
+.column1 {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.7);
+	background-color: #eb8580;
+}
+.column2 {
+	float: right;
+	width: 30%;
+	padding: 25px;
+	background-color: #cd7672;
+	border-radius: 50px;
+}
+
+/* ##### Rows ##### */
+.row {
+	margin: 1rem;
+}
+
+.row:after {
+	padding: 1 0rem;
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.tableWrapper {
+	max-height: 800px;
+	overflow: auto;
+	scroll-behavior: smooth;
+}
+
+/* ##### Footer ##### */
+.credit {
+	padding: 1rem 0;
+	color: #5e5959;
+}
+.credit a {
+	color: #1c4250;
+}
+button {
+	background: #d7d7d7;
+	color: #3b3b3b;
+	padding: 0.6rem 1rem;
+	font-size: 0.8rem;
+	border: solid 1px #c7c7c7;
+	margin: 1rem 0;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	outline: none;
+}
+button:hover {
+	background: rgb(214, 160, 129);
+
+}

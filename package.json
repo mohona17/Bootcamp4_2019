@@ -1,0 +1,26 @@
+{
+  "name": "bootcamp4_2019",
+  "version": "1.0.0",
+  "description": "In this assignment, we will continue to build upon our directory application by creating a front-end interface with React.js to display listings, as well as the ability to add new listings and delete old ones.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.16.0",
+    "typescript": "^3.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohona17/Bootcamp4_2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohona17/Bootcamp4_2019/issues"
+  },
+  "homepage": "https://github.com/mohona17/Bootcamp4_2019#readme"
+}
